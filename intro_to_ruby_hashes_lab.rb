@@ -1,7 +1,12 @@
 def base_hash
   # Remember implicit return! We're returning this new Hash _without_ the
   # keyword "return." Nice and neat.
+<<<<<<< HEAD
   	monopoly = {:railroads=> {}}
+=======
+	  {:koala_family => "members"
+	  }
+>>>>>>> 8de922e6214264029bbb270619c89d7ff0484462
 end
 
 def monopoly_with_second_tier
@@ -9,6 +14,7 @@ def monopoly_with_second_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
+<<<<<<< HEAD
   monopoly = 
     {
       railroads: 
@@ -18,6 +24,10 @@ def monopoly_with_second_tier
       }
     }
 	  
+=======
+  	  {:koala_family => "members"
+	  }
+>>>>>>> 8de922e6214264029bbb270619c89d7ff0484462
 end
 
 def monopoly_with_third_tier
@@ -25,6 +35,7 @@ def monopoly_with_third_tier
   # you built in the previous method. Run the tests. They will fail, but
   # they'll guide you in how to modify what you just did to have more
   # complexity.
+<<<<<<< HEAD
     monopoly = 
     {
       railroads:
@@ -48,6 +59,9 @@ def monopoly_with_third_tier
     }
     
 
+=======
+  
+>>>>>>> 8de922e6214264029bbb270619c89d7ff0484462
 end
 
 def monopoly_with_fourth_tier
